@@ -8,7 +8,6 @@ import org.junit.jupiter.api.Test;
 
 import rect.Rectangle;
 
-
 public class TestRectangle {
 
 	Rectangle rect1, rect2;
