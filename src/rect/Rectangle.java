@@ -3,8 +3,9 @@ package rect;
 public class Rectangle {
     private int width, height;
     public Rectangle(int width, int height) {
-        this.width = width;
-        this.height = height;
+    	super();
+    	this.width = Math.max(1, width);
+    	this.height = Math.max(1, height);
     }
     public int getWidth() {
         return this.width;
@@ -17,5 +18,9 @@ public class Rectangle {
     }
     public void setHeight(int height) { 
         this.height = height;
+    }
+    
+    public int getArea() {
+    	return this.width * this.height;
     }
 }
