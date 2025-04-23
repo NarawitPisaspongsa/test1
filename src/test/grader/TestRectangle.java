@@ -58,3 +58,5 @@ public class TestRectangle {
 	}
 
 }
+
+// noted: this section is for deciding what resources will be used. testing only
